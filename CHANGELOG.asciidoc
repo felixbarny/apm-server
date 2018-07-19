@@ -12,6 +12,7 @@ https://github.com/elastic/apm-server/compare/6.3\...master[View commits]
 [float]
 === Added
 
+- Allow sending `tags` for `spans`, that get indexed in ES {pull}1156[1156].
 - Listen on default port 8200 if unspecified {pull}886[886].
 - Update Go to 1.10.3 {pull}1054[1054].
 - Combine `apm-server.yml` and `apm-server.reference.yml` into one file {pull}958[958].
